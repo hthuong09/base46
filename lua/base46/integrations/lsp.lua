@@ -2,9 +2,9 @@ local colors = require("base46").get_theme_tb "base_30"
 
 return {
   -- LSP References
-  LspReferenceText = { fg = colors.darker_black, bg = colors.white },
-  LspReferenceRead = { fg = colors.darker_black, bg = colors.white },
-  LspReferenceWrite = { fg = colors.darker_black, bg = colors.white },
+  LspReferenceText = { fg = colors.lightbg, bg = "NONE" },
+  LspReferenceRead = { fg = colors.lightbg, bg = "NONE" },
+  LspReferenceWrite = { fg = colors.lightbg, bg = "NONE" },
 
   -- Lsp Diagnostics
   DiagnosticHint = { fg = colors.purple },
