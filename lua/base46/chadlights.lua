@@ -1,6 +1,6 @@
 local merge_tb = require("base46").merge_tb
 
-local ui = require("core.utils").load_config().ui
+local ui = vim.g.base46.config
 local highlights = {}
 
 -- push hl_dir file names to table

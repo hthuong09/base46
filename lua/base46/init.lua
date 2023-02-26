@@ -2,14 +2,15 @@ local M = {}
 local g = vim.g
 
 M.setup = function(config)
+  g.base46_theme = config.theme
   g.base46 = {
-    config = config
+    config = config,
   }
   M.load_theme()
 end
 
 M.get_theme_tb = function(type)
-  local default_path = "base46.themes." .. g.base46.config.theme
+  local default_path = "base46.themes." .. g.base46_theme
 
   local present, default_theme = pcall(require, default_path)
 
