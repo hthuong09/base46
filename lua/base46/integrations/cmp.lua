@@ -7,7 +7,7 @@ return {
   CmpItemAbbrMatch = { fg = colors.blue, bold = true },
   CmpBorder = { fg = colors.grey },
   CmpDocBorder = { fg = colors.grey },
-  CmPmenu = { bg = colors.darker_black },
+  CmpPmenu = { bg = "none", fg = colors.white },
 
   -- cmp item kinds
   CmpItemKindConstant = { fg = base16.base09 },
